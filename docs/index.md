@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Riya Anand GitHub Page
 
-You can use the [editor on GitHub](https://github.com/ranand2445/curly-knife/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+# 5.1 and 5.2 Notes: 
+*5.1*
+- Computing innovations are created by people, and enable shifts into the way people program tasks (need to accommodate)
+- Effects of computing innovation -- it can be effective and beneficial and harmful by diff or same people, even just one effect
+- Computer innovations have enabled innovations in medicine, engineering, etc.
+- Originally World Wide web = intended for rapid and easy exchange of info between scientific community
+- Targeted advertising -- mostly used to help business, but can be misused by individuals
+- Machine learning can enable data innovation in many fields, but can also be used as discrimination. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*5.2:*
 
-### Markdown
+- The internet has a digital divide
+- Which means that there is a DIFFERING amount of access to the internet based on a variety of characteristics
+- Socioeconomic status, geographic status, or demographic characteristics
+- This digital divide can affect a lot of people
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*5.3:*
+- Reflect existing human biases, because of biases written into algorithms or biases in the data
+- Programmers should try and reduce bias in programming
+- Can be present in all levels of data development
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ranand2445/curly-knife/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Github Activities:
+## Create Task Code Run-time:
+[Riya Create Task](https://github.com/sarayu-pr11/team-narks/wiki/Riya-Create-Task).
