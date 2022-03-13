@@ -1,9 +1,11 @@
+import time
 """
 Introduction to Console Programming
 Writing a function to print a menu
 """
 #start adding menu
-
+number1 = 0
+number2 = 0
 # Menu options in print statement
 def print_menu1():
     print('1 -- Stringy' )
@@ -14,7 +16,8 @@ def print_menu1():
     print('6 -- Animation' )
     print('7 -- Exit' )
 
-runOptions()
+
+    runOptions()
 
 
 # Menu options as a dictionary
@@ -38,6 +41,13 @@ def print_menu2():
         print(key, '--', menu_options[key] )
     runOptions()
 
+def matrix():
+    matrix = [ [1,2,3], [4,5,6], [7,8,9] ]
+    for row in matrix:
+        for col in row:
+            print(col, end= "")
+        print()
+
 def swapnumbers(a, b):
     temp = a
     a = b
@@ -56,6 +66,47 @@ def swapnumbers(a, b):
 # code that calls the function to swap
 # used input so that users can play around with numbers and see how swaps + keeps in order
 
+# terminal print commands
+ANSI_CLEAR_SCREEN = u"\u001B[2J"
+ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
+OCEAN_COLOR = u"\u001B[44m\u001B[2D"
+SHIP_COLOR = u"\u001B[32m\u001B[2D"
+RESET_COLOR = u"\u001B[0m\u001B[2D"
+
+def ocean_print():
+    # print ocean
+    print(ANSI_CLEAR_SCREEN, ANSI_HOME_CURSOR)
+    print("\n\n\n\n")
+    print(OCEAN_COLOR + "  " * 35)
+
+
+# print ship with colors and leading spaces
+def ship_print(position):
+    print(ANSI_HOME_CURSOR)
+    print(RESET_COLOR)
+    sp = " " * position
+    print(sp + "    |\   ")
+    print(sp + "    |/   ")
+    print(SHIP_COLOR, end="")
+    print(sp + "\__ |__/ ")
+    print(sp + " \____/  ")
+    print(RESET_COLOR)
+
+
+# ship function, iterface into this file
+def ship():
+    # only need to print ocean once
+    ocean_print()
+
+    # loop control variables
+    start = 0  # start at zero
+    distance = 60  # how many times to repeat
+    step = 2  # count by 2
+
+    # loop purpose is to animate ship sailing
+    for position in range(start, distance, step):
+        ship_print(position)  # call to function with parameter
+        time.sleep(.1)
 
 # menu option 1
 def stringy():
@@ -73,9 +124,11 @@ def listy():
 # call functions based on input choice
 def runOptions():
     # infinite loop to accept/process user menu choice
+    global number1
+    global number2
     while True:
         try:
-            option = int(input('Enter your choice 1-5: '))
+            option = int(input('Enter your choice 1-7: '))
             if option == 1:
                 stringy()
             elif option == 2:
@@ -88,7 +141,7 @@ def runOptions():
             elif option == 5:
                 matrix()
             elif option == 6:
-                animation()
+                ship()
             elif option == 7:
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
