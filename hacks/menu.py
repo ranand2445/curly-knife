@@ -1,4 +1,5 @@
 import time
+
 """
 Introduction to Console Programming
 Writing a function to print a menu
