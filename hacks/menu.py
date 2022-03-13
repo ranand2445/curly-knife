@@ -2,7 +2,7 @@
 Introduction to Console Programming
 Writing a function to print a menu
 """
-
+#start adding menu
 
 # Menu options in print statement
 def print_menu1():
