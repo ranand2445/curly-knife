@@ -49,20 +49,22 @@ def matrix():
             print(col, end= "")
         print()
 
-def swapnumbers(a, b):
-    temp = a
-    a = b
-    b = temp
-    print("After Swapping two Numbers",(a, b))
+#def swap2numbers(a, b):
+ #   temp = a
+  #  a = b
+#  b = temp
+
+def swapnumbers():
     number1 = int(input(" What is the first number you want? : "))
     number2 = int(input(" What is the second number you want? : "))
     print("Before Swapping two Number",(number1, number2))
-
-# making sure that the inputs stay in order
+    # making sure that the inputs stay in order
     if number1 > number2:
-        swapnumbers(number1, number2)
-    else:
-        print("After Swapping two Numbers",(number1, number2))
+        temp = number1
+        number1 = number2
+        number2 = temp
+    
+    print("After Swapping two Numbers",(number1, number2))
 
 # code that calls the function to swap
 # used input so that users can play around with numbers and see how swaps + keeps in order
@@ -86,11 +88,11 @@ def ship_print(position):
     print(ANSI_HOME_CURSOR)
     print(RESET_COLOR)
     sp = " " * position
-    print(sp + "    |\   ")
-    print(sp + "    |/   ")
+    print(sp + "\    /\ ")
+    print(sp + " )  ( ')")
     print(SHIP_COLOR, end="")
-    print(sp + "\__ |__/ ")
-    print(sp + " \____/  ")
+    print(sp + "(  /  )")
+    print(sp + " \(__)|")
     print(RESET_COLOR)
 
 
