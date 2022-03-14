@@ -40,5 +40,9 @@ Question 2:
 Question 3:
 - I think that red tape, or rules and regulations, can definitely be a barrier to decreasing the digital divide. For example, at Del Norte, we have certain websties that our blocked that might benefit our education further (educational youtube videos, our own deployed websites). 
 ## Github Activities:
+Key things I learned: I learned how to impliment menu's and how to you can call functions in menu options, so that certain things can be run when you select that [Major Commit 1 (from Replit)](https://github.com/ranand2445/curly-knife/commit/c859d12bd1d5532679334acf55158bd5def13798).
+[Major Commit 2 (from Replit)](https://github.com/ranand2445/curly-knife/commit/7970a1f8ec636849b276bc0c288d717e44962767).
+
+
 ## Create Task Code Run-time:
 [Riya Create Task](https://github.com/sarayu-pr11/team-narks/wiki/Riya-Create-Task).
