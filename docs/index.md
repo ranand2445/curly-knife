@@ -8,6 +8,8 @@
 - Originally World Wide web = intended for rapid and easy exchange of info between scientific community
 - Targeted advertising -- mostly used to help business, but can be misused by individuals
 - Machine learning can enable data innovation in many fields, but can also be used as discrimination. 
+- Multirotor: benefits and harmful effects
+- 
 
 *5.2:*
 
@@ -15,11 +17,8 @@
 - Which means that there is a DIFFERING amount of access to the internet based on a variety of characteristics
 - Socioeconomic status, geographic status, or demographic characteristics
 - This digital divide can affect a lot of people
+- Differences in countries can also impact this digital divide based on what the government allows and if computers are not common in the area
 
-*5.3:*
-- Reflect existing human biases, because of biases written into algorithms or biases in the data
-- Programmers should try and reduce bias in programming
-- Can be present in all levels of data development
 
 ## 5.1 Activity
 Question 1: 
