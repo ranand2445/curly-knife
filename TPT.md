@@ -1,3 +1,4 @@
+{% include navigation.html %}
 ## 5.1 and 5.2 Notes
 ###5.1
 - Computing innovations are created by people, and enable shifts into the way people program tasks (need to accommodate)
