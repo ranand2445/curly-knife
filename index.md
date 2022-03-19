@@ -9,9 +9,7 @@
 <tr>
 <td>Week 0</td>
 <td> 
-
   <a href="https://github.com/kamryns/curly-cupboard/issues/11" target="_blank">review tkt</a>
-
 </td>
 </tr>
 
