@@ -1,15 +1,16 @@
 
 
-from hacks.week0 import menu
+from week0 import menu
+from week1 import list
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Stringy", menu.stringy],
-    ["Numby", menu.numby],
-    ["Listy", menu.listy],
+    #["Stringy", menu.stringy],
+   # ["Numby", menu.numby],
+    #["Listy", menu.listy],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -22,10 +23,13 @@ sub_menu = [
 
 patterns_sub_menu = [
     ["Animation", menu.ship],
-    ["PreFuncy", None],
-    ["Funcy", None],
+    ["Christmas Tree", menu.grow_tree],
+    #["Funcy", None],
 ]
-
+listandloops_sub_menu = [
+    ["List", list.tester],
+   # ["Fibonacci", fibonacci.tester],
+]
 # Menu banner is typically defined by menu owner
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
@@ -37,8 +41,10 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Cool Hacks", submenu])
-    menu_list.append(["Cool Things", patterns_submenu])
+    menu_list.append(["Tri 1", submenu])
+    menu_list.append(["Week 0", patterns_submenu])
+    menu_list.append(["Week 1", listandloops_submenu])
+
     buildMenu(title, menu_list)
 
 # def submenu
@@ -52,6 +58,10 @@ def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
 
+def listandloops_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, listandloops_sub_menu)
+  
 def buildMenu(banner, options):
     # header for menu
     print(banner)

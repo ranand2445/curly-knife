@@ -16,7 +16,8 @@ def print_menu1():
     print('4 -- Swap' )
     print('5 -- Matrix' )
     print('6 -- Animation' )
-    print('7 -- Exit' )
+    print('7 -- Tree' )
+    print('8 -- Exit' )
 
 
     runOptions()
@@ -30,18 +31,23 @@ menu_options = {
     4: 'Swap',
     5: 'Matrix',
     6: 'Animation',
-    7: 'Exit',
+    7: 'Tree',
+    8: 'Exit',
 
 }
 
 # Print menu options from dictionary key/value pair
 
 
+#--------------------------------------------------------
+#--------------------------------------------------------
 
 def print_menu2():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
+#--------------------------------------------------------
+#--------------------------------------------------------
 
 def matrix():
     matrix = [ [1,2,3], [4,5,6], [7,8,9] ]
@@ -49,6 +55,8 @@ def matrix():
         for col in row:
             print(col, end= "")
         print()
+#--------------------------------------------------------
+#--------------------------------------------------------
 
 #def swap2numbers(a, b):
  #   temp = a
@@ -69,7 +77,26 @@ def swapnumbers():
 
 # code that calls the function to swap
 # used input so that users can play around with numbers and see how swaps + keeps in order
-
+#--------------------------------------------------------
+#--------------------------------------------------------
+def create_tree(rows):
+  for i in range(0, rows+1):
+        for j in range(0, rows-i):
+            print(end=' ')
+        for k in range(0, i):
+            print('*', end=' ')
+        print()
+## code added after week 0, implimentation through solutions page
+def grow_tree():
+  rows = int(input("Enter height of the tree:  "))
+  create_tree(rows)
+  spaces = lambda a: int(a-2) + a % 2
+  moveRt = " " * spaces(rows)
+  for i in range(3):
+      print(moveRt, end="###")
+      print()
+#--------------------------------------------------------
+#--------------------------------------------------------  
 # terminal print commands
 ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
@@ -111,6 +138,8 @@ def ship():
     for position in range(start, distance, step):
         ship_print(position)  # call to function with parameter
         time.sleep(.1)
+#--------------------------------------------------------
+#--------------------------------------------------------
 
 # menu option 1
 def stringy():
@@ -147,12 +176,15 @@ def runOptions():
             elif option == 6:
                 ship()
             elif option == 7:
+                grow_tree()
+            elif option == 8:
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
                 print('Invalid option. Please enter a number between 1 and 5.')
         except ValueError:
             print('Invalid input. Please enter an integer input.')
+          
 
 if __name__=='__main__':
     # print_menu1()
