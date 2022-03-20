@@ -1,6 +1,6 @@
 
-#hi
-import menu
+
+from hacks.week0 import menu
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic

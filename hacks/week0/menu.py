@@ -1,3 +1,4 @@
+# incorporated swap and matrix into harcoded menu for week 0 activities
 import time
 
 """
