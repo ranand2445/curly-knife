@@ -1,4 +1,76 @@
 {% include navigation.html %}
+
+
+<table>
+<tr>
+<td>Week 0</td>
+<td> 
+ 5.1/5.2 Notes
+</td>
+</tr>
+
+<tr>
+<td>Week 1</td>
+<td>  
+5.3/5.4 Notes
+</td>
+</tr>
+
+</table>
+
+## 5.3 and 5.4 Notes!
+### 5.3
+- Computing innovations can reflect existing human biases because of biases written into algorithms by the programmer,
+- intentionally or unintentionally
+- Programmers should take action to reduce bias in algorithms used for computing to combat human biases
+- Netflix example: shows their originals as featured before others
+- Your feed is customized to what you've watched before
+- Companies can have a target audience, and algorithms can target people who fit in the "target", and reject those who don't. fit in their trends. 
+-  Biases can be embedded at all levels of software development (more older people in facebook, more younger in Tiktok --> maybe unintentional)
+- Intentionally harmful or hateful? Can receive feedback from a variety of people?
+
+### 5.4:
+- Widespread access to information and public data facilitates the identification of problems, development of solutions, and dissemnation of results
+- Science can use citizen science to solve scientific problems
+- Public Data sets --> people can give feedback by messing around with it
+- Distributed computing --> donate spare computing power to help calculations
+- Spotify: Collaborative Playlists
+- Algorithm
+- Crowdfunding
+
+### 5.3 Activity
+**HP Video:
+* Black Man is using HP face tracking software (state of the art computer)
+* He's explaining how the computer isn't following him around like it is supposed to
+* White coworker Wanda tries the face recognition and it works perfectly fine 
+* As soon as black men enters the frame it doesn't work! 
+* Gives insight to how the inherent algorthims of the HP tracking are biased?
+
+Question 1:
+- While it certainly was interesting how the HP computer suddenly started not working once a black men entered the frame, I don't beleive he thinks that it was an intentional bias. Instead, he was poking fun at it, and just pointing out the irony of the situation that this is a state of the art computer, and that he even bought one for himself, only for his blackness to be interfering with one of the cool feautres that he purchased it for
+
+Question 2: 
+- This was likely not an anomaly, and probably happened from a lack of testing on diverse people on the HP team's part. The team likely tested the algorthim on plenty of fair skinned indviduals, and when they saw it working, decided to call it complete. Rather, if they had tested it on people iwth different skin tones, they could have ensured that the face tracking software worked for all skin tones, rather than just light ones.
+
+Question 3:
+- This is definitley both harmful and exclusive, because they are preventing darker skinned individuals to use the resources in a computer that they purchased. While I don't think that this was an intentional bias, it still prevented everyone to be able to use the computer equally.
+
+Question 4:
+- The error should definitley be corrected, as it is preventing groups of people from being able to use/purchase this product
+
+Question 5:
+- I think the best step to take is to intiate more diverse testing, and testing the face tracking feature on people with a large variety of skin tones, and just a large variety of people in general. 
+
+### 5.4 Activity
+
+Question 1: 
+- One crowdsource idea we could have is anytime we are having an issue with our code, we could have like a forum that we could post the error on. With so many students in CSP, the error would likely get caught very soon, and we would probably get feedback on many different ways on how to solve the problem
+Question 2:
+- I know with the extensive coursload many Del Norte Students take on, they would likely benefit from true Del Norte students reflections and expereince on the AP Classes. Most of the time, we see the CRF course descriptions, or hear about classes through teachers, but if all Del Norte students gave their input on classes, it might aid in upcoming sophomores/juniors class selections. For our project, crowdsourcing could definitley be helpful, if we got like a survey from the students about what they like about English class reading and what they don't like, so we could cater our website to them. 
+
+
+<br> </br>
+
 ## 5.1 and 5.2 Notes!
 ### 5.1
 - Computing innovations are created by people, and enable shifts into the way people program tasks (need to accommodate)
@@ -36,3 +108,4 @@ Like I said in the question above, a user could become a contributer to the digi
 Question 3:
 
 I think that red tape, or rules and regulations, can definitely be a barrier to decreasing the digital divide. For example, at Del Norte, we have certain websties that our blocked that might benefit our education further (educational youtube videos, our own deployed websites).
+
