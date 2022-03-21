@@ -2,7 +2,6 @@
 ### Riya Python work!
 Key things I learned: I learned how to impliment menu's and how to you can call functions in menu options, so that certain things can be run when you select that option.
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@ranand2445/curly-knife-1?v=1"></iframe>
 
 
 - <iframe height="1000px" width="600px" src="https://replit.com/@ranand2445/curly-knife-1?lite=true#main.py"></iframe>
