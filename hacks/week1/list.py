@@ -3,28 +3,20 @@
 InfoDb = []
 # List with dictionary records placed in a list  
 InfoDb.append({  
-               "FirstName": "John",  
-               "LastName": "Mortensen",  
-               "DOB": "October 21",  
-               "Residence": "San Diego",  
-               "Email": "jmortensen@powayusd.com",  
-               "Owns_Cars":["2015 Fusion","2011 Ranger","2003 Excursion","1997 F-350", "1969 Cadillac"]  
+               "Name": "Harry Potter",  
+               "Favorite Spell": "Expecto Patronum",  
+               "Pet": "Hedwig",  
+               "House": "Gryffindor",  
+               "Favorite Class": "Defense against the Dark Arts",  
+               "Necessities":["Glasses","Invisibility Cloak","Mauraders Map","Wand",]  
               })  
 
-InfoDb.append({  
-               "FirstName": "Sunny",  
-               "LastName": "Naidu",  
-               "DOB": "August 2",  
-               "Residence": "San Diego",  
-               "Email": "snaidu@powayusd.com",  
-               "Owns_Cars":["A","B","C"]  
-              })  
 
 # given an index this will print InfoDb content
 def print_data(n):
-    print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])  # 
-    print("\t", "Cars: ", end="")
-    print(", ".join(InfoDb[n]["Owns_Cars"]))
+    print(InfoDb[n]["Name"], InfoDb[n]["House"])  # 
+    print("\t", "Necessities: ", end="")
+    print(", ".join(InfoDb[n]["Necessities"]))
     print()
 
 # Hack 2: InfoDB loops. Print values from the lists using three different ways: for, while, recursion
@@ -44,10 +36,13 @@ def recursive_loop(n):
         print_data(n)
         recursive_loop(n + 1)
     return # exit condition
-def tester():
+def tester1():
     print("For loop")
     for_loop()
-    print("While loop")
-    while_loop(0)  # requires initial index to start while
-    print("Recursive loop")
-    recursive_loop(0)  # requires initial index to start recursion
+def tester2():
+  print("While loop")
+  while_loop(0)  # requires initial index to start while
+def tester3():
+  print("Recursive loop")
+  recursive_loop(0)  # requires initial index to start recursion
+    

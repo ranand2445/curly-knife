@@ -1,7 +1,7 @@
 
 
 from week0 import menu
-from week1 import list
+from week1 import list, fibonacci
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -27,8 +27,10 @@ patterns_sub_menu = [
     #["Funcy", None],
 ]
 listandloops_sub_menu = [
-    ["List", list.tester],
-   # ["Fibonacci", fibonacci.tester],
+    ["For Loop", list.tester1],
+    ["While Loop", list.tester2],
+    ["Fibonacci", fibonacci.tester],
+    ["Recursive Loop",list.tester3]
 ]
 # Menu banner is typically defined by menu owner
 border = "=" * 25
