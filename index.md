@@ -23,4 +23,7 @@
 
 </table>
 
+### About Me:
+My name is Riya, and I am in eleventh grade! Right now I am taking Computer Science Principles, and I have worked on three projects so far. In trimester 1, I worked on a website all about music, and in Trimester 2 I worked on calm studying website. Another big project I worked on last tri was my create task, and I made a typing game/test to see your typing efficiency. Prior to taking this class, I was in robotics so I knew some Java, but in this class I've been able to learn python, html, and javascript, so it's been really cool!
+
 
