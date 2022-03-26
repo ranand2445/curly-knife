@@ -16,6 +16,14 @@
 </td>
 </tr>
 
+<tr>
+<td>Week 2</td>
+<td>  
+5.5/5.6Notes
+</td>
+</tr>
+
+
 </table>
 
 ## 5.3 and 5.4 Notes!
