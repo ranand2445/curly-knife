@@ -3,7 +3,7 @@
 
 
 
-### [Group Github Page](https://kamryns.github.io/curly-cupboard/)
+### [Group Github Page](https://kamryns.github.io/curlycupboard3.0/)
 
 <table>
 <tr>
@@ -17,6 +17,14 @@
 <td>Week 1</td>
 <td>  
 <a href="https://github.com/kamryns/curly-cupboard/issues/27" target="_blank">review tkt</a>
+
+</td>
+</tr>
+
+<tr>
+<td>Week 2</td>
+<td>  
+<a href="https://github.com/kamryns/curlycupboard3.0/issues/25" target="_blank">review tkt</a>
 
 </td>
 </tr>
