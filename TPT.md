@@ -5,7 +5,7 @@
 <tr>
 <td>Week 0</td>
 <td> 
- 5.1/5.2 Notes
+5.1/5.2 Notes
 </td>
 </tr>
 
@@ -19,12 +19,65 @@
 <tr>
 <td>Week 2</td>
 <td>  
-5.5/5.6Notes
+5.5/5.6 Notes
 </td>
 </tr>
 
 
 </table>
+
+## 5.5 and 5.6 Notes!
+### 5.5
+- (IP) is a work or invention that is the result of creativity to which one has rights
+- Copyright protects the IP, and prevents people from using it unless permission is granted
+- Plagiarism is when you present material as your own
+- The legal ways to use material created by someone else is Creative Commons, open source, and open access
+- Creative commons provides free licenses, they tell others how you want them to use the creations (tells people what they can do with your work)
+- Open source are programs that are freely available for anyone to use 
+- Open access is online research that has not a lot of restrictions
+- 
+
+### 5.6:
+- PI = personally identifiable information 
+- Can be used to steal someone's identity, bank funds, or to impersonate someone someone in order to gain access to an organization
+- Search engines maintain a history of what you search 
+- PII can be used to enhance a user's online experience
+- Can be used to enhance a user's online experience, but it can also be exploited (harmful impact)
+- Google knows your email and your IP address
+- The federal government knows where/learns where and when you are traveling
+- To create a strong passwords: (10+ characters, must contain a symbol, must contain number and lowercase and uppercase letters)
+- Multi-Factor Authentication: What you know, what you have, what you are
+- Two types of encryption: Symmetric and Asymmetric encryption:
+- Symmetric encyrption is when one key is used to both encrypt and decrypt data
+- Asymettric Encryption is a Public Key Encryption: it uses two keys (a public key for encypting, and a private key for decrypting)
+- The benefit here is that a sender does not need the receiver's key to encrypt a message, but needs it to decrypt it.
+
+### 5.5 Activity
+
+Question 1:
+-The tech-talk and the video covers some of the license types that are available to pick for the team/individual project. The creative commons license allows people to use your work but just clearly states what others can and cannot do with your work. The Open Source MIT license is an open source program that is free for anyone to use, and the tech talk specifices that it's good for making and distributing closed source versions. Finally, the Open Source GPL LIcense is also an Open Source license, that provides a lot of leeway, but prevent distribution of closed source versions. 
+
+Question 2: 
+- For both my personal, and my team project, we chose the creative commons liscence. We chose this license because we felt that it was the best fit for the purpose of our website. After we graduate from Del Norte, we don't want the reading website to become dormant. Rather, we want other APEL and CSP students to be able to use our code and continue to make changes to the website. Having the CC license allows us to provide that freedom, but we can still specify what we don't want others to do with our code. For my personal project, I also chose the CC license, because I want others to be able to interact with my code, but I don't want outright copying of everything and distribution (something that I can specify)
+
+### 5.6 Activity
+
+Question 1: 
+- The CRUD stuff that we enter (if we enter email, phone number, etc.) and we wanted that information to be private, it is actually a concern because that information gets published to google. THus, this is a PII I have seen on a project in CompSci Principles. 
+
+Question 2:
+- I think that in this day and age, my friends and I definitley have a lot of PII concerns. With apps like instagram. snapchat, and tiktok, there is a lot of personal information that could be leaked out. Also, there is always the fear of stalkers gaining too much personal information
+
+Question 3:
+- A good password would be about 10 characters with a mix of symbols and characters. A weak password would consist of fewer than 10 characters with no symbols. Multi-Factor authentication is also implimented in many systems in order to assist in just normal password authentication. For example, some times when you log in to somehwere, they will send you an email/text with another code you will have to enter.
+
+Question 4: 
+- Symmetric encryption is when both the receiver and the sender has a private key. Asymmetric Encyption is when the senders key is public, but there is a private key that the receiver has in order to decrypt the message. 
+
+Question 5:
+- Luckily, I have not experienced the results of a phishing scheme, but I definitley have seen the attempts. I've gotten text messages from numbers urging me to click on a link to change login information, and I've gotten voice mails from numbers urging me to call a specific number or my bank info will be stolen. I know that most of the time, the older generations can fall for these schemes because they are unaware. Some other phishing techniques involve fradulent emails, voicemails, text messages, fake wifi spoofs, or popular website recreations.
+
+<br> </br>
 
 ## 5.3 and 5.4 Notes!
 ### 5.3
