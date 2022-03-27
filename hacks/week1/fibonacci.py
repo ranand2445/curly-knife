@@ -6,7 +6,6 @@ def recur_fibo(n):
     return(recur_fibo(n-1) + recur_fibo(n-2))
 
 # take input from the user in tester function
-# still need try and except!!
 def tester():
   try:
     nterms = int(input("How many terms?"))

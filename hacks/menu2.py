@@ -2,6 +2,7 @@
 
 from week0 import menu
 from week1 import list, fibonacci
+from week2 import factor, factorial
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -15,22 +16,23 @@ main_menu = [
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
+math_sub_menu = [
     ["Matrix", menu.matrix],
-    #["Swap", menu.swapnumbers(0,0)],
-    ["Swap", menu.swapnumbers],
+    ["Fibonacci", fibonacci.tester],
+    ["Factors Test Data",factor.testdata],
+    ["Factors Test Input", factor.testinput],
+    ["Factorial", factorial.tester]
 ]
 
 patterns_sub_menu = [
     ["Animation", menu.ship],
     ["Christmas Tree", menu.grow_tree],
-    #["Funcy", None],
 ]
-listandloops_sub_menu = [
+data_sub_menu = [
     ["For Loop", list.tester1],
     ["While Loop", list.tester2],
-    ["Fibonacci", fibonacci.tester],
-    ["Recursive Loop",list.tester3]
+    ["Recursive Loop",list.tester3],
+    ["Swap", menu.swapnumbers],
 ]
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -41,28 +43,28 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 # 1. main menu and submenu reference are created [Prompts, Actions]
 # 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
 def menu():
-    title = "Function Menu" + banner
+    title = "Magical Menu of Magicalness" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Tri 1", submenu])
-    menu_list.append(["Week 0", patterns_submenu])
-    menu_list.append(["Week 1", listandloops_submenu])
+    menu_list.append(["Magical Mathamatics", math_submenu])
+    menu_list.append(["Magical Patterns", patterns_submenu])
+    menu_list.append(["Magical Data Types", data_submenu])
 
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
+def math_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
+    buildMenu(title, math_sub_menu)
 
 def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
 
-def listandloops_submenu():
+def data_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, listandloops_sub_menu)
+    buildMenu(title, data_sub_menu)
   
 def buildMenu(banner, options):
     # header for menu

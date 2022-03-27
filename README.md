@@ -3,18 +3,15 @@
 ### Team Github Page: [link](https://kamryns.github.io/curly-cupboard/)
   
 # Week 0 Review Ticket: [link](https://github.com/kamryns/curly-cupboard/issues/11)
-- Menu:
-- Tree:
-- Swap:
-- Matrix:
+- [Menu:](https://replit.com/@ranand2445/curly-knife-2#hacks/menu2.py)
+- [Tree/Swap/Matrix:](https://replit.com/@ranand2445/curly-knife-2#hacks/week0/menu.py)
+  (these functions are in menu))
+# Week 1 Review Ticket: [link]((https://github.com/kamryns/curly-cupboard/issues/27))
+- [Car List](https://replit.com/@ranand2445/curly-knife-2#hacks/week1/list.py)
+- [Fibbonacci](https://replit.com/@ranand2445/curly-knife-2#hacks/week1/fibonacci.py)
 
-# Week 1 Review Ticket: [link]()
-- Car List
-- Fibbonacci
-
-# Week 2 Review Ticket: [link]()
-- Menu Rearrangment
-- Factorial (Classes)
-- Math Function Imperative
-- Math Function Classes
-- Palindrome
+# Week 2 Review Ticket: [link](https://github.com/kamryns/curlycupboard3.0/issues/25)
+- [Menu Rearrangment](https://replit.com/@ranand2445/curly-knife-2#hacks/menu2.py)
+- [Factorial (Classes)](https://replit.com/@ranand2445/curly-knife-2#hacks/week2/factorial.py)
+- [Math Function](https://replit.com/@ranand2445/curly-knife-2#hacks/week2/factor.py)
+- [Palindrome]()
