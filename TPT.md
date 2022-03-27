@@ -55,7 +55,7 @@
 ### 5.5 Activity
 
 Question 1:
--The tech-talk and the video covers some of the license types that are available to pick for the team/individual project. The creative commons license allows people to use your work but just clearly states what others can and cannot do with your work. The Open Source MIT license is an open source program that is free for anyone to use, and the tech talk specifices that it's good for making and distributing closed source versions. Finally, the Open Source GPL LIcense is also an Open Source license, that provides a lot of leeway, but prevent distribution of closed source versions. 
+- The tech-talk and the video covers some of the license types that are available to pick for the team/individual project. The creative commons license allows people to use your work but just clearly states what others can and cannot do with your work. The Open Source MIT license is an open source program that is free for anyone to use, and the tech talk specifices that it's good for making and distributing closed source versions. Finally, the Open Source GPL LIcense is also an Open Source license, that provides a lot of leeway, but prevent distribution of closed source versions. 
 
 Question 2: 
 - For both my personal, and my team project, we chose the creative commons liscence. We chose this license because we felt that it was the best fit for the purpose of our website. After we graduate from Del Norte, we don't want the reading website to become dormant. Rather, we want other APEL and CSP students to be able to use our code and continue to make changes to the website. Having the CC license allows us to provide that freedom, but we can still specify what we don't want others to do with our code. For my personal project, I also chose the CC license, because I want others to be able to interact with my code, but I don't want outright copying of everything and distribution (something that I can specify)
@@ -75,6 +75,9 @@ Question 4:
 - Symmetric encryption is when both the receiver and the sender has a private key. Asymmetric Encyption is when the senders key is public, but there is a private key that the receiver has in order to decrypt the message. 
 
 Question 5:
+- 
+
+Question 6:
 - Luckily, I have not experienced the results of a phishing scheme, but I definitley have seen the attempts. I've gotten text messages from numbers urging me to click on a link to change login information, and I've gotten voice mails from numbers urging me to call a specific number or my bank info will be stolen. I know that most of the time, the older generations can fall for these schemes because they are unaware. Some other phishing techniques involve fradulent emails, voicemails, text messages, fake wifi spoofs, or popular website recreations.
 
 <br> </br>
