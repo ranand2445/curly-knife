@@ -75,7 +75,7 @@ Question 4:
 - Symmetric encryption is when both the receiver and the sender has a private key. Asymmetric Encyption is when the senders key is public, but there is a private key that the receiver has in order to decrypt the message. 
 
 Question 5:
-- 
+- Certbot was used in deployment, and we use encryption in that process
 
 Question 6:
 - Luckily, I have not experienced the results of a phishing scheme, but I definitley have seen the attempts. I've gotten text messages from numbers urging me to click on a link to change login information, and I've gotten voice mails from numbers urging me to call a specific number or my bank info will be stolen. I know that most of the time, the older generations can fall for these schemes because they are unaware. Some other phishing techniques involve fradulent emails, voicemails, text messages, fake wifi spoofs, or popular website recreations.
