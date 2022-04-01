@@ -24,7 +24,6 @@ math_sub_menu = [
     ["Factors Test Data",factor.testdata],
     ["Factors Test Input", factor.testinput],
     ["Factorial", factorial.tester],
-    ["Palindrome", palindrome.tester]
 ]
 
 patterns_sub_menu = [
