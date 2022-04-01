@@ -18,3 +18,4 @@
 # Week 3 Review Ticket: [link](https://github.com/ranand2445/curly-knife/issues/3)
 - [Kashish Crossover REPLIT commits](https://github.com/kashishchopraa/Individual-Algorithmic-Project/commits?author=ranand2445)
 - [Kashish Crossover GITHUB page commits](https://github.com/kashishchopraa/Individual-Algorithmic-Project/commits/gh-pages)
+- [VIDEO PLAYLIST]()
