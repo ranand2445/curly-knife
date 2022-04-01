@@ -3,6 +3,8 @@
 from week0 import menu
 from week1 import list, fibonacci
 from week2 import factor, factorial
+from week2 import palindrome
+
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -21,7 +23,7 @@ math_sub_menu = [
     ["Fibonacci", fibonacci.tester],
     ["Factors Test Data",factor.testdata],
     ["Factors Test Input", factor.testinput],
-    ["Factorial", factorial.tester]
+    ["Factorial", factorial.tester],
 ]
 
 patterns_sub_menu = [
@@ -33,6 +35,7 @@ data_sub_menu = [
     ["While Loop", list.tester2],
     ["Recursive Loop",list.tester3],
     ["Swap", menu.swapnumbers],
+    ["Palindrome", palindrome.tester],
 ]
 # Menu banner is typically defined by menu owner
 border = "=" * 25
