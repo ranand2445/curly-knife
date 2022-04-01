@@ -14,4 +14,6 @@
 - [Menu Rearrangment](https://replit.com/@ranand2445/curly-knife-2#hacks/menu2.py)
 - [Factorial (Classes)](https://replit.com/@ranand2445/curly-knife-2#hacks/week2/factorial.py)
 - [Math Function](https://replit.com/@ranand2445/curly-knife-2#hacks/week2/factor.py)
-- [Palindrome]()
+-
+# Week 3 Review Ticket: [link](https://github.com/ranand2445/curly-knife/issues/3)
+- [Kashish Crossover REPLIT commits](https://github.com/kashishchopraa/Individual-Algorithmic-Project/commits?author=ranand2445)
