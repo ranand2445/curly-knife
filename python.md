@@ -10,7 +10,8 @@ Code Snippets:
 
 List code: I learned how to make my own list and append it to a dictionary, and I also learned how to run lists recursvley, and use a for and while loop too. I feel like this was a really beneficial hack. 
 
-``` InfoDb = []
+``` 
+InfoDb = []
 
 InfoDb.append({  
                "Name": "Harry Potter",  
@@ -57,11 +58,12 @@ def tester2():
 def tester3():
   print("Recursive loop")
   recursive_loop(0)  # requires initial index to start recursion
-  ```
   
- Hack: How to create submenus. I thought this was really helpful, because we didn't have to have everything crowded into one big menu. Instead. we could develop submenus that have categories grouped together. 
+```
+  
+- Hack: How to create submenus. I thought this was really helpful, because we didn't have to have everything crowded into one big menu. Instead. we could develop submenus that have categories grouped together. 
  
- ```
+```
   sub_menu = [
     ["Matrix", menu.matrix],
     #["Swap", menu.swapnumbers(0,0)],
@@ -79,12 +81,12 @@ listandloops_sub_menu = [
     ["Fibonacci", fibonacci.tester],
     ["Recursive Loop",list.tester3]
 ]
+
 ```
  Hack: Fibonacci using try and except. It was interesting having to think through pseudocode for how to write this program, and then impliment it.
  
  
- ```
-
+```
 def recur_fibo(n):
   if n<=1:
     return n
@@ -103,4 +105,5 @@ def tester():
           print(recur_fibo(i))
   except ValueError:
     print(f"Not a number:{nterms}")
- ```
+   
+```
