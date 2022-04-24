@@ -1,6 +1,6 @@
 {% include navigation.html %}
 # Riya Create Task: Typing Game Tester!!!!
-## [Video](https://drive.google.com/file/d/1V4CgI6JvoveDZCwnLKqA1N90FTXYzUBP/view)
+## [Video](https://www.youtube.com/watch?v=i6tucoMG-I4)
 ## [Raw Code](https://github.com/ranand2445/curly-knife/commit/823600dc803c3b7a939f67483e915e63d45c1865)
 
 # Written Response:
