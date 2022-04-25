@@ -24,7 +24,62 @@
 </tr>
 
 
+  <tr>
+<td>Week 6</td>
+<td>  
+MC 1 and MC 2 Quiz Corrections
+</td>
+</tr>
+
+
 </table>
+
+## First Week Test Practice:
+
+### MCQ 1 47/50:
+
+Question 14: 
+- Original Answer: A
+- Correct Answer: C (2 times as many bits can be identified)
+- Why: If you think about it numerically, two the power of one more number is 2 times as possibilities, not just two more possibilities. 
+
+Question 15: Personal Cybersecurity Risks
+
+- Original Answer: A
+- Correct Answer: C
+- Why: Using public key encryption in an online store purchase is a common thing to do. however, If you email credit card information to a hotel room, that's a huge risk of personal privacy.
+ 
+Question 39: Parallel Computing:
+
+- Original Answer: D
+- Correct Answer: C
+- Why: WHen the 30 and 50 seconds are coupled together in one processor, it overlaps the other processor which takes 60 seconds, so the total process takes 80 seconds. 
+
+### MCQ 2 46/50:
+
+Question 12: Application most suited to crowdsourcing
+
+- Original Answer: B
+- Correct Answer: D
+- Why: A museum that allows its users to purchase tickets is not an example of a large crowd contributing, rather it is just between a user and a company. An application that allows users to view descriptions and photographs of local landmarks is reliant on information obtained from a large group of individuals
+
+Question 25:
+
+- Original Answer: B
+- Correct Answer: C
+- Why: The application only sends notifications to compatible users who are nearby. Since not all people iwll be considered compatible, users are unlikely to be able to identify ALL OF THE OTHER users in the area. 
+
+Question 32: Bits needed to represent directions:
+
+- Original answer: A
+- Correct Answer: D
+- Why: Four bits can represent 16 pieces of information, so it is not needed to add an extra bit. Thus, it can already store the 8 directions.
+ 
+Question 42: Cloud computing and the internet:
+
+- Original Answer: C and D
+- Correct answer B and C
+- Why: Cloud storage allows users to share files easily, which may make increased concerns abouto illegal distributions of copyrighted materials. However, on the flip side it increases collaboration. 
 
 ## 5.5 and 5.6 Notes!
 ### 5.5
