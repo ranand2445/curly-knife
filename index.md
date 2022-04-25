@@ -47,7 +47,7 @@
 </td>
 </tr>
   <tr>
-<td>Week 6</td>
+<td>4/25 Crossover Create Task Review Ticket</td>
 <td>  
 <a href="https://github.com/ranand2445/curly-knife/issues/7" target="_blank">review tkt</a>
 
