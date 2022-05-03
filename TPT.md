@@ -30,12 +30,43 @@
 MC 1 and MC 2 Quiz Corrections
 </td>
 </tr>
-
-
-</table>
-
+  
+   <tr>
+<td>Week 7</td>
+<td>  
+MC 3 Quiz Corrections
+</td>
+</tr>
+  
+ </table>
+ 
 ## First Week Test Practice:
 
+### MCQ 1 47/50:
+
+
+
+## Second Week Test Practice:
+### MCQ 3: 46/50
+Question 6: Algorithm to Print Integers:
+- Original Answer: A and C
+- Correct Answer: A and D
+- Why: D is one of the option choices because the number correctly displays all the values that are multiples of three up until the number 20, and incrments to 21, but does not include it. C is incorrect because the number 20 is not displayed since the algorithm terminates immediately after x is assigned the value 20.
+
+Question 23: Social Media Hypothesis:
+- Original Answer: A
+- Correct Answer: D
+- Why: I picked A because I thought the pattern was unchanging between average number of daily messages sent per user. Instead, I should have looked at the active trend of characters per user decreasing after th emobile app was released. 
+
+Question 36: Test cases for grade assignment with nested if:
+- Original Answer: B and C
+- Correct Answer: B and D
+- D is a correct option choice because when numCorrect is 6, the condition numCorrect > 7 evaluates to false. Therefore "check" is displayed instead of the intended "check minus". C was an incorrect choice because I misread it and thoucht 7 was supposed to be evaluated to "check-minus".
+
+Question 41: Encrypting and decrypting using public key cryptography:
+- Original Answer: C
+- Correct Answer: D
+- D is correct because in public cryptography, a message is encrypted with a recipient’s public key and decrypted with the recipient’s private key. I thought that public key cryptography involved both keys being public, which is incorrect. 
 ### MCQ 1 47/50:
 
 Question 14: 
