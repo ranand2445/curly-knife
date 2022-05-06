@@ -40,6 +40,33 @@ MC 3 Quiz Corrections
   
  </table>
  
+ 
+### MCQ 5: 44/50
+Q9:
+ - Original answer: C
+ - Correct answer: D
+ - Why: Have to go through and multply by 10 each time
+
+Q17:
+- My:A
+- Correct: D
+- Why:  Version I calls the GetPrediction procedure once for each element of idList, or four times total. Since each call requires 1 minute of execution time, version I requires approximately 4 minutes to execute. Version II calls the GetPrediction procedure twice for each element of idList, and then again in the final display statement. This results in the procedure being called nine times, requiring approximately 9 minutes of execution time.
+Q22:
+- Correct answer: B
+- My answer: A
+- Why:Selecting the best move is an optimization problem that cannot be solved in a reasonable time based on the information that the game runs slowly. If the algorithm for selecting the best move is running too slowly, the game may run more quickly if a heuristic is used to find approximate solutions.
+Q33:
+- My: C
+- Correct:A 
+- Why: The IETF develops and oversees standards such as hypertext transfer protocol (HTTP), Internet protocol (IP), and simple mail transfer protocol (SMTP).
+Q44:
+- My: D
+- Correct: B
+- Why: he Internet was designed to be scalable, using open protocols to easily connect additional computing devices to the network.
+Q45:
+- MY: B
+- Correct:C
+- Why: Both code segments display the correct average. Code segment I requires more arithmetic operations
 ## First Week Test Practice:
 
 ### MCQ 1 47/50:
